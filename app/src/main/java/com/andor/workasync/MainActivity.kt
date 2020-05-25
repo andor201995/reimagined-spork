@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 
     companion object {
         const val IMAGE_URL_1 =
-            "https://images.unsplash.com/photo-1486010586814-abd061e90cf9?ixlib=rb-1.2.1&auto=format&fit=crop&w=3068&q=80"
+            "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80"
         const val IMAGE_URL_2 =
             "https://images.unsplash.com/photo-1495978866932-92dbc079e62e?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80"
     }
