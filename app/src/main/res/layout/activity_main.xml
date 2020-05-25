@@ -7,45 +7,45 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/ImageView1"
-        android:layout_width="0dp"
-        android:layout_height="300dp"
+        android:id="@+id/imageView1"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp300"
         android:contentDescription="@string/content_desc"
-        android:padding="16dp"
+        android:padding="@dimen/dp16"
         android:src="@drawable/ic_launcher_foreground"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="@id/ImageView2"
+        app:layout_constraintRight_toLeftOf="@id/imageView2"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/Button1"
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/dp16"
         android:text="@string/button_1"
-        app:layout_constraintLeft_toLeftOf="@id/ImageView1"
-        app:layout_constraintRight_toRightOf="@id/ImageView1"
-        app:layout_constraintTop_toBottomOf="@id/ImageView1" />
+        app:layout_constraintLeft_toLeftOf="@id/imageView1"
+        app:layout_constraintRight_toRightOf="@id/imageView1"
+        app:layout_constraintTop_toBottomOf="@id/imageView1" />
 
     <ImageView
-        android:id="@+id/ImageView2"
-        android:layout_width="0dp"
-        android:layout_height="300dp"
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp300"
         android:contentDescription="@string/content_desc"
-        android:padding="16dp"
+        android:padding="@dimen/dp16"
         android:src="@drawable/ic_launcher_foreground"
-        app:layout_constraintLeft_toRightOf="@id/ImageView1"
+        app:layout_constraintLeft_toRightOf="@id/imageView1"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/Button2"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/dp16"
         android:text="@string/Button2"
-        app:layout_constraintLeft_toLeftOf="@id/ImageView2"
-        app:layout_constraintRight_toRightOf="@id/ImageView2"
-        app:layout_constraintTop_toBottomOf="@id/ImageView2" />
+        app:layout_constraintLeft_toLeftOf="@id/imageView2"
+        app:layout_constraintRight_toRightOf="@id/imageView2"
+        app:layout_constraintTop_toBottomOf="@id/imageView2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

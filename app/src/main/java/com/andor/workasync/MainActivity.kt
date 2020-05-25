@@ -25,10 +25,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Button1.setOnClickListener {
+        button1.setOnClickListener {
             fetchImage1AndSet()
         }
-        Button2.setOnClickListener {
+        button2.setOnClickListener {
             fetchImage2AndSet()
         }
     }
@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun onTaskComplete(result: Bitmap) {
-                ImageView2.setImageBitmap(result)
+                imageView2.setImageBitmap(result)
             }
         }
         serviceWorker2.addTask(task)
@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun onTaskComplete(result: Bitmap) {
-                ImageView1.setImageBitmap(result)
+                imageView1.setImageBitmap(result)
             }
         }
         serviceWorker1.addTask(task)
